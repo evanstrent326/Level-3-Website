@@ -1,0 +1,174 @@
+.container
+	{
+	}
+
+.header{
+	background-color: grey;
+	width: 100%;
+	}
+
+ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding:0;
+	overflow: hidden;
+	background-color: gray;
+	width: 100%;
+	max-height: 78px;
+	letter-spacing: large;
+}
+
+li{
+	display: inline-block;
+	margin-right: 60px;
+	}
+
+li a {
+ 	display: block;
+ 	color: white;
+ 	text-align: center;
+ 	padding-bottom:12px;
+	padding-top: 12px;
+	padding-left: 12px;
+ 	text-decoration: none;
+	max-height: 48px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.slider{
+	background-color: #fa8a00;
+	height: 365px;
+  	margin-right: 90px;
+  	margin-left: 90px;
+  	margin-bottom: 30px;
+	}
+
+.column-left
+	{
+	margin-right: 5px;
+  	margin-left: 5px;
+	background-color: #fa8a00;
+	float: left;
+	width: 24%;
+	height: auto;
+	text-align: center;
+	}
+
+.column-right
+	{
+	margin-right: 5px;
+  	margin-left: 5px;
+	background-color: #fa8a00;
+	float: right;
+	width: 24%;
+	text-align: center;
+	}
+
+.column-center1
+	{
+	margin-right: 5px;
+  	margin-left: 5px;
+	background-color: #fa8a00;
+	float: left;
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	justify-content: center;
+	}
+
+.column-center2
+	{
+	margin-right: 5px;
+  	margin-left: 5px;
+	background-color: #fa8a00;
+	float: right;
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	}
+
+.bottom-footer
+{
+	float: left;
+	background-color: lightgray;
+	margin-top: 30px;
+	width: 100%;
+	text-decoration-style: solid;
+	text-decoration: underline;
+}
+
+.top-footer
+{
+	float: left;
+	background-color: lightgray;
+	padding-bottom: 30px;
+	width: 100%;
+	text-decoration-style: solid;
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: underline;
+}
+
+div {
+	text-size: 20px;
+}
+
+body {
+	font-family: Arial, Helvetica, "sans-serif" Gotham, "Helvetica Neue";
+	background-color: lightgray;
+}
+
+.column-left2
+{
+	margin-right: 5px;
+  	margin-left: 5px;
+	background-color: #fa8a00;
+	float: left;
+	width: 49%;
+	height: auto;
+	text-align: center;
+	text-size: 20px;
+	}
+
+.column-right2
+{
+	margin-right: 5px;
+  	margin-left: 5px;
+	background-color: #fa8a00;
+	float: right;
+	width: 49%;
+	height: auto;
+	text-align: center;
+	font-size: 16px;
+	align-content: center
+	}
+
+video {
+  	max-width:100%;
+  	height: auto;
+	align-content: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  float: left;
+  width: 50%;
+	background-color: #fa8a00;
+	font-size: 16px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
